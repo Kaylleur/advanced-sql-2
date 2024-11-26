@@ -22,5 +22,5 @@
 - Trigger associé correctement : 2 points
 
 ## Bonus (2 points)
-- 
+- Pertinence de la proposition d'optimisation SQL
 ---
