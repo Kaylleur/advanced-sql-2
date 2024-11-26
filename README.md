@@ -71,10 +71,10 @@ Calculez le nombre total de posts et de commentaires créés par chaque utilisat
 Créez un trigger qui, à chaque fois qu'un utilisateur est tagué dans un post, insère une notification dans une table `notifications`.
 La table `notifications` doit contenir les colonnes suivantes :
 
-`notification_id` : clé primaire
-`user_id` : l'ID de l'utilisateur qui reçoit la notification
-`message` : le contenu de la notification
-`created_at` : la date et l'heure de la notification
+- `notification_id` : clé primaire
+- `user_id` : l'ID de l'utilisateur qui reçoit la notification
+- `message` : le contenu de la notification
+- `created_at` : la date et l'heure de la notification
 
 ## Exercice Bonus : Optimisation avec Index et EXPLAIN
 Analysez et optimisez cette requête lente en ajoutant un index ou en optimisant cette requête.
